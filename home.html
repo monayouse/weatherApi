@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- 
+    <i class="fa-solid fa-circle-xmark"></i>
+    <i class="fa-solid fa-bars"></i>
+ -->
+
+<body>
+    <div class="loading_screen top-0 start-0 end-0 bottom-0 position-absolute bg-black d-none   ">
+        <div class="justify-content-center d-flex align-items-center   vh-100">
+            <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+        </div>
+    </div>
+
+    <div class="lin position-fixed top-0 bottom-0   d-flex   ">
+        <div class="nav_ul min-vh-100 bg-black  text-white p-4 d-flex flex-column justify-content-between  ">
+            <ul class="list-unstyled overflow-hidden li_nav  ">
+                <li class="py-2 position-relative Search_link">Search</li>
+                <li class="py-2 position-relative Categories_link">Categories</li>
+                <li class="py-2 position-relative Area_link">Area</li>
+                <li class="py-2 position-relative Ingredients_link">Ingredients</li>
+                <li class="py-2 position-relative Contact_link">Contact Us</li>
+            </ul>
+
+            <div class="icons  ">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <div class="">
+                    <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center p-2  bar min-vh-100 bg-white d-flex flex-column justify-content-between ">
+            <img class=" pt-4 " src="./images/logo.png" alt="logo">
+            <i class="fa-solid  text-black open-close-icon fa-align-justify fa-2x  open"></i>
+            <i class="fa-solid  text-black open-close-icon fa-2x fa-x d-none close"></i>
+            <div class=" text-center">
+                <i class="fa-solid fa-globe d-block  text-black "></i>
+                <i class="fa-solid fa-share-nodes pb-3  text-black "></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- start -->
+    <section class="bg-black py-5 my-start min-vh-100  ">
+        <div class="container  bg-black my-start    ">
+            <div class="row gy-4">
+                <!-- <div class="col-md-3  ">
+                <div class="display position-relative overflow-hidden  ">
+                    <img class="w-100" src="./images/58oia61564916529.jpg" alt="meal">
+                    <div class="img-layer position-absolute  d-flex align-items-center    ">
+                        <h3 class="p-2 ">elent</h3>
+                    </div>
+                </div>
+            </div>
+            -->
+
+            </div>
+        </div>
+    </section>
+    <!-- end start -->
+
+    <!-- info about elent -->
+    <div class="container-fluid meal-information py-5 bg-black text-white   min-vh-100 position-relative">
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="inner-img">
+                        <img class="w-100" src="" alt="meal">
+                        <h2></h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="inner-info">
+                        <h2>Instructions</h2>
+                        <p> </p>
+                        <h3>Area : <span class="area"></span></h3>
+                        <h3>Category : <span class="category"></span></h3>
+                        <h3>Recipes :</h3>
+
+                        <ul class="list-unstyled d-flex flex-wrap fs-ul">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+
+                        </ul>
+                        <h3>Tags : </h3>
+                        <ul class="list-unstyled d-flex flex-wrap tags">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                        </ul>
+                        <a href="" target="_blank" class="btn btn-success source">Source</a>
+                        <a href="" target="_blank" class="btn btn-danger youtube">Youtube</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  end info about elent -->
+
+
+
+    <!--**************************** =>      category kolh    -->
+    <!-- category -->
+    <section class="bg-black py-5 cat   ">
+        
+     
+
+        <div class="container  bg-black my-category  ">
+            <div class="row gy-4">
+                <!-- <div class="col-md-3  ">
+                    <div class="display-category position-relative overflow-hidden  ">
+                        <img class="w-100" src="./images/58oia61564916529.jpg" alt="meal">
+                        <div class="category-layer position-absolute  d-flex align-items-center flex-column   ">
+                            <h3 class="p-2 ">elent</h3>
+                            <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have
+                                been eating beef since prehistoric times.[1]</p>
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </section>
+    <!--end  category -->
+    <!-- category content -->
+    <section class="bg-black py-5  theCategoryContent  ">
+        <div class="container  bg-black my-category-content  ">
+            <div class="row gy-4">
+                <!-- <div class="col-md-3  ">
+                    <div class="display-category-content position-relative overflow-hidden  ">
+                        <img class="w-100" src="./images/58oia61564916529.jpg" alt="meal">
+                        <div class="category-layer-content position-absolute  d-flex align-items-center flex-column justify-content-center  ">
+                            <h3 class="p-2 ">elent</h3>
+                       
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end category content -->
+
+    <!--  category_details -->
+    <div class="cat-deta bg-black container-fluid  ">
+        <div class="container category_details py-5  text-white   ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="category_details_inner">
+                        <img class="w-100" src="" alt="meal">
+                        <h2></h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="category_details_inner_info   ">
+                        <h2>Instructions</h2>
+                        <p> </p>
+                        <h3>Area : <span class="area_category"></span></h3>
+                        <h3>Category : <span class="category_category"></span></h3>
+                        <h3>Recipes :</h3>
+
+                        <ul class="list-unstyled d-flex flex-wrap cat-ul">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+
+                        </ul>
+                        <h3>Tags : </h3>
+                        <ul class="list-unstyled d-flex flex-wrap cat_tags">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                        </ul>
+                        <a href="" target="_blank" class="btn btn-success source_category">Source</a>
+                        <a href="" target="_blank" class="btn btn-danger youtube_category">Youtube</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end category_details -->
+    <!--**************************** =>    end  category kolh    -->
+
+    <!-- area -->
+    <section class="areaa container-fluid bg-black py-5 ">
+        <div class="container text-white">
+            <div class="row gy-4 area_row">
+                <!-- <div class="col-md-3 text-center">
+                    <div class="area_inner">
+                        <i class="fa-solid fa-house-laptop fa-4x "></i>
+                        <h3 class="mt-2">ffffffffffff</h3>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+    </section>
+    <!-- end area -->
+
+    <!-- area content -->
+    <section class="bg-black py-5  area_content  ">
+        <div class="container  bg-black my_area_content  ">
+            <div class="row gy-4">
+                <!-- <div class="col-md-3  ">
+                    <div class="display_area_content position-relative overflow-hidden  ">
+                        <img class="w-100" src="./images/58oia61564916529.jpg" alt="meal">
+                        <div class="area_layer_content position-absolute  d-flex align-items-center flex-column justify-content-center  ">
+
+                            <h3 class="p-2 ">elent</h3>
+                       
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end area content -->
+    <!-- area details -->
+    <div class="area-deta bg-black container-fluid  ">
+        <div class="container area_details py-5  text-white   ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="area_details_inner">
+                        <img class="w-100" src="" alt="meal">
+                        <h2></h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="area_inner_info ">
+                        <h2>Instructions</h2>
+                        <p> </p>
+                        <h3>Area : <span class="areaaa_category"></span></h3>
+                        <h3>Category : <span class="area_categoryy"></span></h3>
+                        <h3>Recipes :</h3>
+
+                        <ul class="list-unstyled d-flex flex-wrap area_ull">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+
+                        </ul>
+                        <h3>Tags : </h3>
+                        <ul class="list-unstyled d-flex flex-wrap area_tags">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                        </ul>
+                        <a href="" target="_blank" class="btn btn-success source_area">Source</a>
+                        <a href="" target="_blank" class="btn btn-danger youtube_area">Youtube</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end area details -->
+    <!-- /////////////////////////////=>  end kol el area -->
+
+
+
+
+
+
+
+
+    <!-- ////////////////////////////////////////////////////////////// -->
+    <!-- kol el  Ingredients-->
+    <!-- sart Ingredients -->
+
+    <section class="Ingredients container-fluid bg-black py-5   ">
+        <div class="container text-white">
+            <div class="row gy-4 Ingredients_row">
+                <!-- <div class="col-md-3 text-center">
+                   <div class="Ingredients_inner">
+                    <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                    <h3>Baby Plum Tomatoes</h3>
+                    <p>The tomato is the edible, often red, berry of the plant Solanum lycopersicum, commonly known as a
+                        tomato plant. The</p>
+                   </div>
+                </div> -->
+            </div>
+        </div>
+
+    </section>
+    <!-- end  Ingredients-->
+
+    <!--  Ingredients -->
+    <section class="bg-black py-5  Ingredients_content  fs-ingre  ">
+        <div class="container  bg-black my_Ingredients_content  ">
+            <div class="row gy-4">
+                <!-- <div class="col-md-3  ">
+                    <div class="display_Ingredients_content position-relative overflow-hidden  ">
+                        <img class="w-100" src="./images/58oia61564916529.jpg" alt="meal">
+                        <div class="Ingredients_layer_content position-absolute  d-flex align-items-center flex-column justify-content-center  ">
+
+                            <h3 class="p-2 ">elent</h3>
+                       
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end  Ingredients -->
+    <!--Ingredients  details -->
+    <div class="Ingredients-details bg-black container-fluid  ing-details  ">
+        <div class="container area_details py-5  text-white   ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="Ingredients_details_inner">
+                        <img class="w-100" src="" alt="meal">
+                        <h2></h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="Ingredients_inner_info ">
+                        <h2>Instructions</h2>
+                        <p> </p>
+                        <h3>Area : <span class="Ingredients_category"></span></h3>
+                        <h3>Category : <span class="Ingredients_categoryy"></span></h3>
+                        <h3>Recipes :</h3>
+
+                        <ul class="list-unstyled d-flex flex-wrap Ingredients_ull">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+
+                        </ul>
+                        <h3>Tags : </h3>
+                        <ul class="list-unstyled d-flex flex-wrap Ingredients_tags">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                        </ul>
+                        <a href="" target="_blank" class="btn btn-success source_Ingredients">Source</a>
+                        <a href="" target="_blank" class="btn btn-danger youtube_Ingredients">Youtube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end  details -->
+    <!-- end kol el  Ingredients-->
+    <!-- //////////////////////////////////////////////////////////////////// -->
+    <!-- search -->
+    <section class="search container-fluid bg-black  py-4   ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="search_input px-5">
+                        <input class="form-control bg-transparent text-white  inp searchbyname" type="text"
+                            placeholder="Search By Name">
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search_input px-5">
+                        <input maxlength="1" class="form-control bg-transparent text-white inp searchbyfirstletter "
+                            type="text" placeholder="Search By First Letter">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container seerch_content mt-5 ">
+            <div class="row gy-3">
+
+                <!-- <div class="col-md-3  ">
+                    <div class="display_search_content position-relative overflow-hidden  ">
+                        <img class="w-100" src="./images/58oia61564916529.jpg" alt="meal">
+                        <div class="search_layer_content position-absolute  d-flex align-items-center flex-column justify-content-center  ">
+
+                            <h3 class="p-2 ">elent</h3>
+                       
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <!-- end search -->
+
+    <!-- ff -->
+    <div class="search-details bg-black container-fluid  position-relative     ">
+        
+
+        <div class="container area_details py-5  text-white   ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="search_details_inner">
+                        <img class="w-100" src="" alt="meal">
+                        <h2></h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="search_inner_info ">
+                        <h2>Instructions</h2>
+                        <p> </p>
+                        <h3>Area : <span class="search_area"></span></h3>
+                        <h3>Category : <span class="search_categoryy"></span></h3>
+                        <h3>Recipes :</h3>
+
+                        <ul class="list-unstyled d-flex flex-wrap search_ull">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+
+                        </ul>
+                        <h3>Tags : </h3>
+                        <ul class="list-unstyled d-flex flex-wrap search_tags">
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                            <!-- <li class="alert alert-info m-2 p-1">1 cup Lentils</li> -->
+                        </ul>
+                        <a href="" target="_blank" class="btn btn-success source_search">Source</a>
+                        <a href="" target="_blank" class="btn btn-danger youtube_search">Youtube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="min-vh-100 bg-danger  position-relative">
+
+        <div class="loading_screen top-0 start-0 end-0 bottom-0 position-absolute bg-black   ">
+            <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+        </div>
+
+
+    </div> -->
+
+
+
+    <!-- contact -->
+
+    <section class="contact  container-fluid min-vh-100 bg-black ">
+
+        <div class="d-flex justify-content-center align-items-center min-vh-100 ">
+            <div class=" w-75 px-3 ">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="contact_inputs">
+                            <input onkeyup="validName();validation()" id="nameInput" type="text" class="form-control"
+                                placeholder="Enter Your Name">
+                            <p class="d-none  p_name alert alert-danger w-100 mt-2 text-center">Special characters and
+                                numbers not allowed</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact_inputs">
+                            <input onkeyup="validEmail();validation()" id="emailInput" type="email"
+                                class="form-control " placeholder="Enter Your Email">
+                            <p class="d-none  p_email alert alert-danger w-100 mt-2 text-center">Email not valid
+                                *exemple@yyy.zzz</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact_inputs">
+                            <input onkeyup="validNumber();validation()" id="phoneInput" type="text"
+                                class="form-control " placeholder="Enter Your Phone">
+                                
+                            <p class="d-none  p_number alert alert-danger w-100 mt-2 text-center">Enter valid Phone
+                                Number
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact_inputs">
+                            <input onkeyup="validAge();validation()" id="ageInput" type="number" class="form-control "
+                                placeholder="Enter Your Age">
+                            <p class="d-none  p_age alert alert-danger w-100 mt-2 text-center">Enter valid age</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact_inputs">
+                            <input onkeyup="validPassword();validation()" id="passwordInput" type="password"
+                                class="form-control " placeholder="Enter Your Password">
+                            <p class="d-none  p_password alert alert-danger w-100 mt-2 text-center">Enter valid password
+                                *Minimum eight characters, at least one letter and one number:*</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact_inputs">
+                            <input onkeyup="validrePassword();validation()" id="validPassword" type="password"
+                                class="form-control " placeholder="Repassword">
+                            <p class="d-none  p_repassword alert alert-danger w-100 mt-2 text-center">Enter valid
+                                repassword
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="  d-flex justify-content-center">
+                    <button onkeyup="" id="submitBtn" disabled="true"
+                        class="btn btn-outline-danger px-2 mt-3">Submit</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+    <!--end contact  -->
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
